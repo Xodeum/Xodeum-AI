@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Xodeum AI Web App</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h1>Xodeum AI</h1>
+		</div>
+		<div class="nav-bar">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#search">Search</a></li>
+				<li><a href="#chatbot">Chatbot</a></li>
+				<li><a href="#image-recognition">Image Recognition</a></li>
+				<li><a href="#language-translation">Language Translation</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<div id="home">
+				<h2>Welcome to AI Web App</h2>
+				<p>This web app integrates AI to provide various features.</p>
+			</div>
+			<div id="search">
+				<h2>Search</h2>
+				<input type="text" id="search-input" placeholder="Search...">
+				<button id="search-btn">Search</button>
+				<div id="search-results"></div>
+			</div>
+			<div id="chatbot">
+				<h2>Chatbot</h2>
+				<input type="text" id="chat-input" placeholder="Ask me anything...">
+				<button id="chat-btn">Send</button>
+				<div id="chat-log"></div>
+			</div>
+			<div id="image-recognition">
+				<h2>Image Recognition</h2>
+				<input type="file" id="image-input">
+				<button id="image-btn">Recognize</button>
+				<div id="image-log"></div>
+			</div>
+			<div id="language-translation">
+				<h2>Language Translation</h2>
+				<input type="text" id="translation-input" placeholder="Enter text to translate...">
+				<select id="translation-language">
+					<option value="es">Spanish</option>
+					<option value="fr">French</option>
+					<option value="de">German</option>
+				</select>
+				<button id="translation-btn">Translate</button>
+				<div id="translation-log"></div>
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

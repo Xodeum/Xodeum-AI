@@ -1,0 +1,180 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #242323;
+    background-color: #080707;
+  }
+  
+  .container {
+    width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Styles */
+  
+  .header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Nav Bar Styles */
+  
+  .nav-bar {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .nav-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav-bar li {
+    margin-right: 20px;
+  }
+  
+  .nav-bar a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .nav-bar a:hover {
+    color: #ccc;
+  }
+  
+  /* Content Styles */
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .content h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Search Styles */
+  
+  #search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  #search-btn {
+    padding: 10px;
+    background-color: #1f1b1b;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #search-results {
+    margin-top: 20px;
+  }
+  
+  /* Chatbot Styles */
+  
+  #chat-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  #chat-btn {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #chat-log {
+    margin-top: 20px;
+  }
+  
+  /* Image Recognition Styles */
+  
+  #image-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  #image-btn {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #image-log {
+    margin-top: 20px;
+  }
+  
+  /* Language Translation Styles */
+  
+  #translation-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  #translation-language {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  #translation-btn {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #translation-log {
+    margin-top: 20px;
+  }
