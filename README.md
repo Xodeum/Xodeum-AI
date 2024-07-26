@@ -1,2 +1,2 @@
 # Xodeum-AI
-My AI concept APP
+My AI concept App
